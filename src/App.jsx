@@ -20,7 +20,7 @@ function App() {
       {/* Hero */}
       <section className="hero">
         <img src={logo} alt="RAIX Logo" className="hero-logo" />
-        <h1>Empowering Australian Businesses with Microsoft Copilot Studio & Cybersecurity Expertise</h1>
+        <h1>Empowering Australian Businesses with Copilot Studio & Cybersecurity Expertise</h1>
         <p>Personalized consulting and hands-on services to help you unlock productivity and stay secure.</p>
         <div className="cta-buttons">
           <a href="#contact" className="btn">Book a Free Consultation</a>
@@ -50,7 +50,7 @@ function App() {
           <textarea placeholder="Message" required />
           <button type="submit" className="btn">Send</button>
         </form>
-        <p>Or email: <a href="mailto:hello@raix.example">hello@raix.example</a></p>
+        <p>Or email: <a href="mailto:hello@raix.au">hello@raix.au</a></p>
         <p>LinkedIn: <a href="https://www.linkedin.com/in/soyroberto" target="_blank" rel="noopener noreferrer">soyroberto</a></p>
       </section>
 
