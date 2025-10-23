@@ -112,7 +112,7 @@ function App() {
           <button type="submit" className="btn">Send</button>
         </form>
         <p>Or email: <a href="mailto:hello@raix.example">hello@raix.example</a></p>
-        <p>LinkedIn: <a href="https://www.linkedin.com/in/your-profile" target="_blank" rel="noopener noreferrer">your-profile</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/soyroberto target="_blank" rel="noopener noreferrer">your-profile</a></p>
       </section>
 
       {/* Footer */}
