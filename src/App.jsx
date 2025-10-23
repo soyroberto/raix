@@ -27,12 +27,23 @@ function App() {
           <a href="#contact" className="btn secondary">Contact Me</a>
         </div>
       </section>
+      
+      <video
+  className="hero-logo"
+  src="/assets/raixvideo.mp4"
+  autoPlay
+  loop
+  muted
+  playsInline
+  style={{ maxWidth: '180px', borderRadius: '8px' }}
+/>
+
 
       {/* About */}
       <section id="about" className="section">
         <h2>About RAIX</h2>
         <p>
-          With over <b>[X]</b> years of experience in IT, RAIX helps Australian businesses harness the power of Microsoft Copilot Studio and modern cybersecurity.<br />
+          With over <b>25</b> years of experience in IT, RAIX helps Australian businesses harness the power of Microsoft Copilot Studio and modern cybersecurity.<br />
           Passionate about making advanced technology accessible, practical, and secure for organizations of all sizes.
         </p>
       </section>
