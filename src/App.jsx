@@ -1,4 +1,4 @@
-import './App.css'; // Add your CSS file
+import './index.css'; // Add your CSS file
 
 const logo = '/assets/raix-logo.svg';
 
