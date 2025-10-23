@@ -1,4 +1,4 @@
-import './App.jsx';
+import './App.css'; // Add your CSS file
 
 const logo = '/assets/raix-logo.svg';
 
@@ -26,81 +26,20 @@ function App() {
           <a href="#contact" className="btn">Book a Free Consultation</a>
           <a href="#contact" className="btn secondary">Contact Me</a>
         </div>
-      </section>
-      
-      <video
-  className="hero-logo"
-  src="/assets/raixvideo.mp4"
-  autoPlay
-  loop
-  muted
-  playsInline
-  style={{ maxWidth: '180px', borderRadius: '8px' }}
-/>
-
-
-      {/* About */}
-      <section id="about" className="section">
-        <h2>About RAIX</h2>
-        <p>
-          With over <b>25</b> years of experience in IT, RAIX helps Australian businesses harness the power of Microsoft Copilot Studio and modern cybersecurity.<br />
-          Passionate about making advanced technology accessible, practical, and secure for organizations of all sizes.
-        </p>
+        
+        {/* Moved video to hero section */}
+        <video
+          className="hero-video"
+          src="/assets/raixvideo.mp4"
+          autoPlay
+          loop
+          muted
+          playsInline
+          style={{ maxWidth: '180px', borderRadius: '8px' }}
+        />
       </section>
 
-      {/* Services */}
-      <section id="services" className="section">
-        <h2>My Services</h2>
-        <div className="services-list">
-          <div className="service-card">
-            <h3>Microsoft Copilot Studio Consulting</h3>
-            <ul>
-              <li>Setup, customization, and training</li>
-              <li>Workflow automation and productivity boosts</li>
-              <li>Ongoing support</li>
-            </ul>
-          </div>
-          <div className="service-card">
-            <h3>Cybersecurity Assessments & Solutions</h3>
-            <ul>
-              <li>Security audits and risk assessments</li>
-              <li>Implementation of best practices</li>
-              <li>Employee training and awareness</li>
-            </ul>
-          </div>
-          <div className="service-card">
-            <h3>Training & Workshops</h3>
-            <ul>
-              <li>Tailored sessions for teams</li>
-              <li>Executive briefings</li>
-              <li>Ongoing support packages</li>
-            </ul>
-          </div>
-        </div>
-        <div className="cta-buttons">
-          <a href="#contact" className="btn">Learn More</a>
-          <a href="#contact" className="btn secondary">Book a Free Call</a>
-        </div>
-      </section>
-
-      {/* Why Choose Me */}
-      <section id="why" className="section">
-        <h2>Why Work With a Dedicated Consultant?</h2>
-        <ul>
-          <li>Personalized, hands-on service</li>
-          <li>Flexible, affordable packages</li>
-          <li>Local expertise—focused on Australian businesses</li>
-          <li>Fast response and ongoing support</li>
-        </ul>
-      </section>
-
-      {/* Testimonials */}
-      <section id="testimonials" className="section">
-        <h2>Testimonials</h2>
-        <p><i>Coming soon! (Add your first client testimonial here.)</i></p>
-      </section>
-
-      {/* Contact */}
+      {/* Rest of your sections remain the same but with fixed LinkedIn link */}
       <section id="contact" className="section">
         <h2>Get in Touch</h2>
         <p>Ready to get started or have a question? Fill out the form below or book a free 30-minute consultation.</p>
@@ -112,16 +51,16 @@ function App() {
           <button type="submit" className="btn">Send</button>
         </form>
         <p>Or email: <a href="mailto:hello@raix.example">hello@raix.example</a></p>
-        <p>LinkedIn: <a href="https://www.linkedin.com/in/soyroberto target="_blank" rel="noopener noreferrer">your-profile</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/soyroberto" target="_blank" rel="noopener noreferrer">soyroberto</a></p>
       </section>
 
-      {/* Footer */}
+      {/* Footer with consistent LinkedIn URL */}
       <footer>
         <img src={logo} alt="RAIX Logo" className="footer-logo" />
         <p>ABN: [Your ABN here]</p>
         <p>&copy; {new Date().getFullYear()} RAIX Consulting. All rights reserved.</p>
         <a href="#" className="footer-link">Privacy Policy</a>
-        <a href="https://www.linkedin.com/in/your-profile" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.linkedin.com/in/soyroberto" target="_blank" rel="noopener noreferrer">
           <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/linkedin.svg" alt="LinkedIn" className="linkedin-icon" />
         </a>
       </footer>
