@@ -1,4 +1,3 @@
-App.jsx
 import './index.css';
 
 const logo = '/assets/raix-logo.svg';
@@ -8,8 +7,7 @@ function App() {
     <div>
       {/* Navigation */}
       <nav className="nav">
-        <img src={logo} alt="RAIX logo" className="logo" />
-        <div className="nav-title">RAIX Consulting</div>
+        <img src={logo} alt="RAIX Logo" className="logo" />
         <ul>
           <li><a href="#about">About</a></li>
           <li><a href="#services">Services</a></li>
@@ -17,35 +15,32 @@ function App() {
           <li><a href="#testimonials">Testimonials</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
-        <a href="#contact" className="btn nav-btn">Book a Free Consultation</a>
       </nav>
 
       {/* Hero */}
       <section className="hero">
-        <div className="hero-content">
-          <p className="hero-subtitle">Microsoft Copilot Studio • Cybersecurity</p>
-          <h1>Empowering Australian Businesses with Microsoft Copilot Studio & Cybersecurity Expertise</h1>
-          <p>Personalized consulting and hands-on services to help you unlock productivity and stay secure.</p>
-          <div className="cta-buttons">
-            <a href="#contact" className="btn">Book a Free Consultation</a>
-            <a href="#contact" className="btn secondary">Contact Me</a>
-          </div>
-        </div>
-        <div className="hero-image">
-          <img src={logo} alt="RAIX brand" className="hero-logo" />
+        <img src={logo} alt="RAIX Logo" className="hero-logo" />
+        <h1>Empowering Australian Businesses with Microsoft Copilot Studio & Cybersecurity Expertise</h1>
+        <p>Personalized consulting and hands-on services to help you unlock productivity and stay secure.</p>
+        <div className="cta-buttons">
+          <a href="#contact" className="btn">Book a Free Consultation</a>
+          <a href="#contact" className="btn secondary">Contact Me</a>
         </div>
       </section>
 
       {/* About */}
       <section id="about" className="section">
         <h2>About RAIX</h2>
-        <p>With over [X] years of experience in IT, RAIX helps Australian businesses harness the power of Microsoft Copilot Studio and modern cybersecurity. Passionate about making advanced technology accessible, practical, and secure for organizations of all sizes.</p>
+        <p>
+          With over <b>[X]</b> years of experience in IT, RAIX helps Australian businesses harness the power of Microsoft Copilot Studio and modern cybersecurity.<br />
+          Passionate about making advanced technology accessible, practical, and secure for organizations of all sizes.
+        </p>
       </section>
 
       {/* Services */}
       <section id="services" className="section">
         <h2>My Services</h2>
-        <div className="services-grid">
+        <div className="services-list">
           <div className="service-card">
             <h3>Microsoft Copilot Studio Consulting</h3>
             <ul>
@@ -71,9 +66,13 @@ function App() {
             </ul>
           </div>
         </div>
+        <div className="cta-buttons">
+          <a href="#contact" className="btn">Learn More</a>
+          <a href="#contact" className="btn secondary">Book a Free Call</a>
+        </div>
       </section>
 
-      {/* Why Me */}
+      {/* Why Choose Me */}
       <section id="why" className="section">
         <h2>Why Work With a Dedicated Consultant?</h2>
         <ul>
@@ -82,13 +81,12 @@ function App() {
           <li>Local expertise—focused on Australian businesses</li>
           <li>Fast response and ongoing support</li>
         </ul>
-        <p>Get tailored guidance with rapid execution. I work alongside your team—from discovery to deployment—to deliver secure, measurable outcomes with Copilot and cybersecurity initiatives.</p>
       </section>
 
       {/* Testimonials */}
       <section id="testimonials" className="section">
         <h2>Testimonials</h2>
-        <p>Placeholder for testimonials (add as soon as available)</p>
+        <p><i>Coming soon! (Add your first client testimonial here.)</i></p>
       </section>
 
       {/* Contact */}
@@ -100,22 +98,19 @@ function App() {
           <input type="email" placeholder="Email" required />
           <input type="text" placeholder="Company (optional)" />
           <textarea placeholder="Message" required />
-          <button type="submit" className="btn">Send Message</button>
+          <button type="submit" className="btn">Send</button>
         </form>
-        <div className="contact-info">
-          <p><strong>Other ways to reach me</strong></p>
-          <p>Email: <a href="mailto:hello@raix.au">hello@raix.au</a></p>
-          <p>LinkedIn: <a href="https://www.linkedin.com/in/soyroberto" target="_blank" rel="noopener noreferrer">soyroberto</a></p>
-        </div>
+        <p>Or email: <a href="mailto:hello@raix.example">hello@raix.au</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/your-profile" target="_blank" rel="noopener noreferrer">your-profile</a></p>
       </section>
 
       {/* Footer */}
       <footer>
-        <img src={logo} alt="RAIX brand" className="footer-logo" />
+        <img src={logo} alt="RAIX Logo" className="footer-logo" />
         <p>ABN: [Your ABN here]</p>
         <p>&copy; {new Date().getFullYear()} RAIX Consulting. All rights reserved.</p>
         <a href="#" className="footer-link">Privacy Policy</a>
-        <a href="https://www.linkedin.com/in/soyroberto" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.linkedin.com/in/your-profile" target="_blank" rel="noopener noreferrer">
           <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/linkedin.svg" alt="LinkedIn" className="linkedin-icon" />
         </a>
       </footer>
